@@ -1,7 +1,7 @@
 #top-bg {
     background-image: url(../assets/background-images/Background_Intro.png);
     background-size:100%;
-    padding-block: 120px;
+    padding-block: 120px 57px;
 }
 
 header header {
@@ -85,7 +85,6 @@ ul {
     display: flex;
     text-decoration: none;
     gap: 8px;
-    margin-bottom: 63px;
 
     li {
         padding: 8px 16px;
@@ -96,4 +95,11 @@ ul {
         border-radius: 999px;
     }
     
+}
+
+#listicon {
+    gap: 94px;
+    flex-direction: column;
+    display: flex;
+    place-items: center;
 }
