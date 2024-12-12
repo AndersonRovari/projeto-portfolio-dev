@@ -80,7 +80,7 @@ header header {
     }
 }
 
-ul {
+header ul {
     place-content: center;
     display: flex;
     text-decoration: none;
